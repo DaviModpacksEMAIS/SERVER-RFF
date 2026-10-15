@@ -1,0 +1,17 @@
+{
+  "name": "futebol3d-server",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Núcleo de simulação autoritativa do Futebol 3D (passo 1: roda sem navegador)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tools/headless.js 5 180 && node tools/humans_test.js && node tools/net_test.js"
+  },
+  "dependencies": {
+    "ws": "^8.22.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
